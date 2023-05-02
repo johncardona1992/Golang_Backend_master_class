@@ -1,8 +1,8 @@
 # pull official postgres image
-sudo docker pull postgres
+sudo docker pull postgres:12-alpine
 
 # create a postgres12 container
 sudo docker run --name postgres12 -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:12-alpine
 
 # execute postgres container
-docker exec -it postgres12 psql -U root
+sudo docker exec -it postgres12 psql -U root

@@ -1,0 +1,83 @@
+# Binaries and executables
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.bin
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Build Folders
+node_modules/
+jspm_packages/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+dist/
+.build/
+.instance/
+.libs/
+pkg/
+*.egg
+*.tar.gz
+*.tar.bz2
+*.zip
+*.gz
+*.7z
+
+# Debugging files
+*.dSYM/
+
+# Go specific
+*.exe~
+*.test
+*.prof
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# IDEs and editors
+/.vscode/
+/.idea/
+*.sw?
+*.*~
+*.bak
+*.old
+
+# Log files
+*.log
+
+# Tmp files
+*.tmp
+
+# Vendor folder
+vendor/
+
+# Dependency folders
+Gopkg.lock
+go.sum
+
+# Generated files
+*.pb.go
+*.gen.go
+*.pb.gw.go
+*.swagger.json
+*.swagger.yaml
