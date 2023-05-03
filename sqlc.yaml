@@ -2,8 +2,8 @@ version: "2"
 sql:
   - engine: "postgresql"
     queries: "query.sql"
-    schema: "schema.sql"
+    schema: "./migrations/"
     gen:
       go:
-        package: "tutorial"
-        out: "backend_master_class"
+        package: "db"
+        out: "sqlc"

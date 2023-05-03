@@ -1,3 +1,3 @@
-module backend_master_class
+module github.com/zelator/simplebank
 
 go 1.18
